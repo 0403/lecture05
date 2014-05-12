@@ -25,7 +25,7 @@ var subtract = function(a, b){
 };
 
 var multiply = function(a, b){
-	return a * b;
+	return a * (10-b)/10;
 };
 
 var divide = function(a, b){
