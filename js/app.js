@@ -93,12 +93,12 @@ var startCalc = function(){
 	hideError();
 	if(isReady(operator, operandA, operandB)){
 		var result = 0;
-		if(operator == "+"){
-			result = add(operandA, operandB);
+		if(operator == "*"){
+			result = multiply(operandA, operandB);
 		}else if(operator == "-"){
 			result = subtract(operandA, operandB)
-		}else if(operator == "*"){
-			result = multiply(operandA, operandB);
+		}else if(operator == "+"){
+			result = add(operandA, operandB);
 		}else if(operator == "/"){
 			result = divide(operandA, operandB);
 		}else if(operator == "%"){
